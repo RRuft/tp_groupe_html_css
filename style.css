@@ -78,3 +78,20 @@ h2{
     width: auto;
     border-radius: 1rem;
 }
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #111D40;
+}
+#logo2{
+    width: 6em;
+    height: auto;
+}
+.icons{
+    width: 2rem;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
