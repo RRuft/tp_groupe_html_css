@@ -10,8 +10,9 @@ header{
 nav {
     width: 100%;
 }
-a{
-    text-decoration: none;
+nav a{
+    text-decoration: underline red 2px;
+    color: #111D40;
 }
 header ul{
     display: flex;
@@ -20,11 +21,12 @@ header ul{
     justify-content: space-evenly;
 }
 header ul li:last-child{
-    background-color: darkblue;
+    background-color: #111D40;
     padding: 5px 15px;
 }
 #last{
     color: white;
+    text-decoration: none;
 }
 h1{
     text-align: center;
