@@ -1,0 +1,162 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #111D40; 
+    text-align: center;
+}
+form {
+    background-color: #DFE9F2;
+    width: 400px;
+    height: 450px;
+    border: #111D40 1px solid;
+}
+form h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #F27D72; 
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin: 30px;
+}
+
+form div {
+    padding: 5px;
+    text-align: center;
+}
+form label {
+    margin-left: 30px;
+}
+form input {
+    margin-left: 10px;
+}
+form div:nth-child(4) label {
+    margin-left: 10px;
+}
+form div:nth-child(5) input {
+    margin-left: 10px;
+}
+form div:nth-child(6) {
+    margin-top: 10px;
+    text-align: center;
+}
+#formulaire {
+    margin: 110px auto;
+    width: 500px;
+}
+#contact {
+    background-color: #111D40;
+    color: #5D6073;
+    padding: 5px;
+    text-align: center;
+}
+#contact:hover {
+    background-color: #5D6073;
+    color: #111D40;
+}
+#bouton{
+    background-color: #111D40;
+    color: white;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+}
+#bouton:hover{
+    color: #f27d72;
+}
+#logo {
+    width: 6em;
+    height: auto;
+    margin-left: 2rem;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+nav {
+    width: 100%;
+}
+nav a{
+    text-decoration: underline #f27d72 2px;
+    text-underline-offset: 8px;
+    color: #111D40;
+}
+nav a:hover{
+    color: #f27d72;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Montserrat',sans-serif;
+}
+header ul li:last-child{
+    background-color: #111D40;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+#last{
+    color: white;
+    text-decoration: none;
+   
+}
+#last:hover{
+    color: #f27d72;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #111D40;
+    height: 8em;
+}
+#logo2{
+    width: 6em;
+    height: auto;
+}
+.icons{
+    width: 2rem;
+}
+footer ul{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+footer ul li {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #f27d72;
+}
+#container-reseau{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container-reseau h3{
+    color: white;
+}
+strong{
+    color: #F27D72; 
+}

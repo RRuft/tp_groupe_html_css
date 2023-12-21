@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleHtmlJs.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway&display=swap');
+    </style>
+</head>
+<header>
+    <img src="LogoHorizontal.png" alt="logo-adrar" id="logo">  
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pageHtml.html">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="pageJS.html">Javascript</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="module_page_de__contact.html" id="last">Contact</a></li>
+        </ul>   
+    </nav>
+</header>
+<body>
+    <section class="sectionHtml1">
+        <h1>Qu’est-ce que le langage HTML ?</h1>
+        <p id="p1">Le sigle HTML correspond à « HyperText Markup Language » que l’on peut traduire en français par « Langage HyperTextuel à balises ». Il s’agit d’un langage informatique permettant de définir le contenu et la structure d’une page Web. De nombreuses technologies peuvent être utilisées pour définir les éléments d’une page Web, mais la base la plus minimaliste d’une page est construite en HTML.
+        Le langage HTML est un langage de description sujet à interprétation. Le principe du langage est de décrire la structure et le contenu d’une page. Il va permettre de définir les différentes zones d’affichages (en-tête, corps de la page, pied de page, menu, …) et d’intégrer son contenu (texte, image, tableau, vidéo, …).
+        Cette description est lue par un navigateur (Firefox, Chrome, Edge, …) qui va interpréter le code afin de l’afficher. Cela implique qu’une même page peut donc s’afficher différemment en fonction du navigateur utilisé. Avant l’arrivée des règles d’interprétation de la version 5 du langage HTML, le code non-valide n’était pas interprété de la même manière par les navigateurs. Les navigateurs, plutôt permissifs, traitaient le code même s’il n’était pas valide. Ce qui donnait parfois des résultats surprenants. Les navigateurs modernes posent aujourd’hui beaucoup moins de problèmes en utilisant des règles d’interprétation standards pour le code non-valide.
+        </p>
+    </section>
+    <h2>Pourquoi connaître le langage HTML ?</h2>
+    <section class="sectionHtml2">
+        <img src="html-5_3291670.png" alt="Logo HTML" width="15%" height="15%">
+        <div>
+            <p class="p2"> On peut naturellement se poser la question de l’intérêt pour un étudiant de connaître le langage HTML. Normalement, les langages informatiques sont réservés aux informaticiens !?! La particularité du langage HTML est que la plupart des internautes ont déjà créé du code HTML sans même le savoir. Lorsque vous rédigez un email ou un commentaire sur un site web, dès lors que vous ajoutez des paramètres de mise en forme comme du gras ou de la couleur, cela signifie que vous produisez du HTML et éventuellement un autre langage, le CSS. Si vous avez déjà produit du HTML sans le savoir, il peut donc paraître encore plus inutile de connaître ce langage… En effet, il est possible de générer du code HTML sans connaître le langage. Cependant, il s’avère que l’on va très vite se retrouver limité par les fonctionnalités de l’éditeur utilisé, voir même complètement bloqué par des problèmes de code impossibles à corriger.
+            Dès lors que vous envisagez de rédiger du contenu publié sur le Web, il est très fortement recommandé de connaître le langage HTML. Il ne s’agit pas dans ce cas-là de connaître par cœur tous les éléments du langage. Mais simplement d’en comprendre les principes afin d’être capable de « plonger les mains dans le code » si nécessaire.
+            Par ailleurs, si cela peut faire peur au premier abord, vous allez voir que les principes du langage sont très simples à appréhender.</p>
+        </div>
+        </section>
+        <h2>Quelques notions de base</h2>
+    <section class="sectionHtml3">
+        <div class="art">
+            <h3>Anatomie d'un élément HTML</h3>
+            <p class="p2">Regardons notre élément paragraphe d'un peu plus près :</p>
+            <div class="img">
+                <img src="balises.png" alt="Capture de balises HTML" width="50%">
+            </div>
+            <p class="p2">Les principales parties de notre élément sont :
+                La balise ouvrante : il s'agit du nom de l'élément (dans ce cas, p), encadré par un chevron ouvrant (<) et un chevron fermant (>). Elle indique où l'élément commence ou commence à prendre effet — dans ce cas où commence le paragraphe.
+                Le contenu : il s'agit du contenu de l'élément. Dans notre cas, c'est simplement du texte.
+                La balise fermante : c'est la même que la balise ouvrante, sauf qu'elle comprend une barre oblique (/) avant le nom de l'élément. Elle indique la fin de l'élément — dans ce cas, la fin du paragraphe. Ne pas inclure une balise de fermeture est une erreur fréquente chez les débutants, et peut amener des résultats étranges.
+                La balise ouvrante, suivie par le contenu puis par la balise fermante, composent ensemble l'élément.</p>
+        </div>
+        <div class="art">
+            <h3>Attributs</h3>
+            <p class="p2">Les éléments peuvent aussi avoir des attributs, qui comme suit :</p>
+            <div class="img">
+                <img src="attribut.png"  alt="Capture d'attributs HTML" width="50%">
+            </div>
+            <p class="p2">Les attributs contiennent des informations supplémentaires sur l'élément sans qu'elles n'apparaissent dans le contenu réel. Dans ce cas, l'attribut class vous permet de donner à l'élément un nom d'identification qui peut ensuite être utilisé pour cibler l'élément afin de lui attribuer un style CSS ou un comportement particulier, par exemple.
+                Pour créer un attribut, il faut :
+                </p>
+                <ul class="p2">
+                    <li>Insérer un espace entre cet attribut et le nom de l'élément (ou l'attribut précédent, si l'élément possède déjà un ou plusieurs attributs) ;</li>
+                    <li>Donner un nom à l'attribut, puis ajouter un signe égal ;</li>
+                    <li>Donner une valeur à l'attribut, entourée par des guillemets d'ouverture et de fermeture.</li>
+                </ul>
+            </div>
+    </section>
+    <section>
+        <p class="p2"><strong>Vous voulez en savoir plus sur le HTML ? Inscrivez-vous à la pochaine session dans notre centre de formation.</strong></p>
+    </section>
+</body>
+<footer>
+    <img src="logoA.png" alt="logo2" id="logo2">
+    <div>
+        <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">Javascript</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div id="container-reseau">
+        <h3>Retrouvez-nous</h3>
+        <div>
+            <img src="icon_linkedin_1.png" alt="linkedin" class="icons">
+            <img src="facebook.png" alt="facebook" class="icons">
+            <img src="icon_share.png" alt="share" class="icons">
+        </div>
+    </div>
+</footer>
+</html>
