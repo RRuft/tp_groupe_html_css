@@ -1,3 +1,4 @@
+color
 #logo{
     width: 6em;
     height: auto;
@@ -82,9 +83,10 @@ h2{
 }
 footer{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
     background-color: #111D40;
+    height: 8em;
 }
 #logo2{
     width: 6em;
@@ -96,4 +98,19 @@ footer{
 footer ul{
     display: flex;
     list-style: none;
+    justify-content: space-evenly;
+}
+footer ul li {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#container-reseau{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
