@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleHtmlJs.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway&display=swap');
+    </style>
+</head>
+<header>
+    <img src="LogoHorizontal.png" alt="logo-adrar" id="logo">  
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pageHtml.html">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="pageJS.html">Javascript</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="module_page_de__contact.html" id="last">Contact</a></li>
+        </ul>   
+    </nav>
+</header>
+<body>
+    <section class="sectionJs1">
+        <h1>Qu’est-ce que le langage JavaScript ?</h1>
+        <p id="p1">JavaScript est un langage de programmation qui permet d'implémenter des mécanismes complexes sur une page web. À chaque fois qu'une page web fait plus que simplement afficher du contenu statique — afficher du contenu mis à jour à des temps déterminés, des cartes interactives, des animations 2D/3D, des menus vidéo défilants, ou autre, JavaScript a de bonnes chances d'être impliqué. C'est la troisième couche des technologies standards du web, les deux premières (HTML et CSS) étant couvertes bien plus en détail dans d'autres tutoriels sur MDN. JavaScript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.
+        </p>
+    </section>
+    <h2>Que peut-il vraiment faire ?</h2>
+    <section class="sectionHtml2">
+        <img src="icon_js.png" alt="Logo JS" width="15%" height="15%">
+        <div>
+            <p class="p2"> 
+            Le cœur de JavaScript est constitué de fonctionnalités communes de programmation permettant de : <br>
+            - stocker des valeurs utiles dans des variables. Dans l'exemple plus haut, nous demandons un nouveau nom à l'utilisateur puis le stockons dans une variable appelée name.<br>
+            - faire des opérations sur des morceaux de texte (appelés en programmation « chaînes de caractères » ou « strings » en anglais). Dans l'exemple plus haut, nous prenons la chaîne de caractères "Player 1: " et lui adjoignons la variable name pour créer l'étiquette ''Player 1: Chris".<br>
+            - exécuter du code en réponse à certains événements se produisant sur une page web. Dans l'exemple, nous avons utilisé un événement (« event ») click pour détecter quand l'utilisateur clique sur le bouton ; on exécute alors le code qui met à jour l'étiquette.<br>
+            Et bien plus encore !
+            </p>
+        </div>
+        </section>
+        <h2>Que fait JavaScript sur votre page ?</h2>
+    <section class="sectionHtml3">
+        <div class="art">
+            <h3>Code interprété contre code compilé</h3>
+            <p class="p2">
+                Les principales parties de notre élément sont :
+                En informatique, on parle de code interprété ou compilé. JavaScript est un langage interprété : le code est exécuté de haut en bas et le résultat du code exécuté est envoyé immédiatement. Vous n'avez pas à transformer le code en une autre forme avant que le navigateur ne l'exécute.
+                Les langages compilés quant à eux sont transformés (compilés) en une autre forme avant d'être exécutés par l'ordinateur. Par exemple le C et le C++ sont compilés en langage assembleur qui est ensuite exécuté par l'ordinateur.
+                Chaque approche a ses avantages, ce que nous ne développerons pas pour l'instant.
+            </p>
+        </div>
+        <div class="art">
+            <h3>Code dynamique contre code statique</h3>
+            <p class="p2">
+                Le mot <strong>dynamique</strong> est utilisé tant pour qualifier le JavaScript côté client que les langages côté serveur. 
+                Il se réfère à la capacité de mettre à jour l'affichage d'une page/application web pour montrer des choses différentes en des circonstances différentes, en générant un nouveau contenu quand nécessaire. Le code côté serveur génère dynamiquement du nouveau contenu sur le serveur, par exemple en lisant une base de données, tandis que le JavaScript côté client peut générer dynamiquement un contenu nouveau dans le navigateur, par exemple en créant une nouvelle table HTML, en y insérant les données demandées au serveur, puis en affichant la table dans une page web. Selon le contexte, le terme dynamique prend un sens un peu différent, mais les deux sont très liés, et les deux approches (côté serveur et client) vont souvent de pair.
+                Une page web sans contenu mis à jour dynamiquement est appelé <strong>statique</strong> : elle montre simplement toujours le même contenu.
+            </p>
+        </div>
+    </section>
+    <section>
+        <p class="p2"><strong>Vous pouvez découvrir tous les mystères du JavaScript en vous inscrivant à notre formation Développeur web et web mobile.</strong></p>
+    </section>
+</body>
+<footer>
+    <img src="logoA.png" alt="logo2" id="logo2">
+    <div>
+        <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">Javascript</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div id="container-reseau">
+        <h3>Retrouvez-nous</h3>
+        <div>
+            <img src="icon_linkedin_1.png" alt="linkedin" class="icons">
+            <img src="facebook.png" alt="facebook" class="icons">
+            <img src="icon_share.png" alt="share" class="icons">
+        </div>
+    </div>
+</footer>
+</html>
